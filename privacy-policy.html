@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - GratitudeLens</title>
+    <style>
+        :root {
+            --brand-blue: #5BA3D6;
+            --brand-purple: #7B68EE;
+            --brand-gold: #FFD700;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            line-height: 1.7;
+            color: #333;
+            background: linear-gradient(135deg, rgba(91, 163, 214, 0.05) 0%, rgba(123, 104, 238, 0.05) 100%);
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            background: linear-gradient(135deg, var(--brand-blue), var(--brand-purple));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            margin-bottom: 10px;
+        }
+
+        .last-updated {
+            color: #666;
+            font-size: 0.9rem;
+            margin-bottom: 30px;
+            padding-bottom: 20px;
+            border-bottom: 2px solid #f0f0f0;
+        }
+
+        h2 {
+            color: var(--brand-purple);
+            margin-top: 40px;
+            margin-bottom: 15px;
+            font-size: 1.8rem;
+        }
+
+        h3 {
+            color: var(--brand-blue);
+            margin-top: 25px;
+            margin-bottom: 12px;
+            font-size: 1.3rem;
+        }
+
+        p {
+            margin-bottom: 15px;
+        }
+
+        ul {
+            margin-left: 20px;
+            margin-bottom: 15px;
+        }
+
+        li {
+            margin-bottom: 8px;
+        }
+
+        a {
+            color: var(--brand-blue);
+            text-decoration: none;
+            border-bottom: 1px solid transparent;
+            transition: border-color 0.3s;
+        }
+
+        a:hover {
+            border-bottom-color: var(--brand-blue);
+        }
+
+        .key-promise {
+            background: linear-gradient(135deg, rgba(91, 163, 214, 0.1), rgba(123, 104, 238, 0.1));
+            padding: 20px;
+            border-radius: 8px;
+            border-left: 4px solid var(--brand-purple);
+            margin: 20px 0;
+        }
+
+        .summary-box {
+            background: #f8f9fa;
+            padding: 25px;
+            border-radius: 8px;
+            margin: 30px 0;
+        }
+
+        .summary-box h2 {
+            margin-top: 0;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+
+        th, td {
+            padding: 12px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+
+        th {
+            background: linear-gradient(135deg, rgba(91, 163, 214, 0.15), rgba(123, 104, 238, 0.15));
+            color: var(--brand-purple);
+            font-weight: 600;
+        }
+
+        .contact-section {
+            background: linear-gradient(135deg, var(--brand-blue), var(--brand-purple));
+            color: white;
+            padding: 30px;
+            border-radius: 8px;
+            margin: 40px 0;
+            text-align: center;
+        }
+
+        .contact-section h2 {
+            color: white;
+            margin-top: 0;
+        }
+
+        .contact-section a {
+            color: white;
+            font-weight: 600;
+            border-bottom: 2px solid white;
+        }
+
+        @media (max-width: 600px) {
+            .container {
+                padding: 20px;
+            }
+
+            h1 {
+                font-size: 2rem;
+            }
+
+            h2 {
+                font-size: 1.5rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Privacy Policy for GratitudeLens</h1>
+        <div class="last-updated">
+            <strong>Last Updated:</strong> November 23, 2025<br>
+            <strong>Effective Date:</strong> November 23, 2025
+        </div>
+
+        <h2>Introduction</h2>
+        <p>Welcome to GratitudeLens. This Privacy Policy explains how we collect, use, store, and protect your information when you use our iOS app.</p>
+
+        <div class="key-promise">
+            <strong>Key Privacy Promise:</strong> GratitudeLens is designed with privacy-first architecture. Your gratitude entries, photos, and voice recordings stay in your personal iCloud account and are never stored on our servers.
+        </div>
+
+        <h2>Information We Collect</h2>
+
+        <h3>1. User-Generated Content (Stored in Your iCloud)</h3>
+        <p>When you use GratitudeLens, the following information is stored <strong>in your personal iCloud account</strong> (not on our servers):</p>
+        <ul>
+            <li><strong>Gratitude entries</strong> (text, voice transcriptions, or photo descriptions)</li>
+            <li><strong>Photos</strong> you capture or select from your library</li>
+            <li><strong>Voice recordings</strong> and their transcriptions</li>
+            <li><strong>AI-generated reflections</strong> based on your entries</li>
+            <li><strong>Entry metadata</strong> (date, time, entry type)</li>
+        </ul>
+        <p><strong>Storage Location:</strong> All this data is stored in your iCloud account using Apple's CloudKit service. We cannot access, view, or modify your entries.</p>
+
+        <h3>2. Information Processed for AI Reflections</h3>
+        <p>When you create an entry, the following information is temporarily sent to our secure server (CloudFlare Worker) for AI processing:</p>
+        <ul>
+            <li><strong>Your entry content</strong> (text, photo, or voice transcription)</li>
+            <li><strong>Device identifier</strong> (anonymized, used for rate limiting only)</li>
+        </ul>
+        <p>This information is:</p>
+        <ul>
+            <li><strong>Sent securely</strong> via HTTPS encryption</li>
+            <li><strong>Processed by OpenAI's GPT API</strong> to generate your AI reflection</li>
+            <li><strong>Not stored</strong> on our servers after processing</li>
+            <li><strong>Not retained by OpenAI</strong> (per OpenAI's API terms, data is deleted after 30 days and not used for training)</li>
+        </ul>
+
+        <h3>3. Technical Information</h3>
+        <p>We do NOT collect:</p>
+        <ul>
+            <li>❌ Your name or email address (unless you contact support)</li>
+            <li>❌ Location data</li>
+            <li>❌ Device information beyond anonymized rate-limiting IDs</li>
+            <li>❌ Analytics or tracking data</li>
+            <li>❌ Advertising IDs</li>
+            <li>❌ Contacts or other personal information</li>
+        </ul>
+
+        <h2>How We Use Your Information</h2>
+
+        <h3>AI-Generated Reflections</h3>
+        <ul>
+            <li>Your entry content is sent to OpenAI's API to generate personalized gratitude reflections</li>
+            <li>Content is moderated for safety using OpenAI's Moderation API (free and automatic)</li>
+            <li>AI processing happens in real-time; content is not stored after generation</li>
+        </ul>
+
+        <h3>Content Moderation</h3>
+        <ul>
+            <li>User content is automatically screened using OpenAI's Moderation API to detect:
+                <ul>
+                    <li>Violence, hate speech, or harassment</li>
+                    <li>Self-harm or crisis indicators</li>
+                    <li>Inappropriate or harmful content</li>
+                </ul>
+            </li>
+            <li>If content is flagged, we log the category and timestamp (NOT the content itself) for safety monitoring</li>
+            <li>Moderation logs are automatically deleted after 30 days</li>
+        </ul>
+
+        <h3>Rate Limiting</h3>
+        <ul>
+            <li>Device identifiers are used to prevent abuse (limit: 10 requests per minute)</li>
+            <li>This protects our service and keeps costs manageable for free users</li>
+        </ul>
+
+        <h2>Data Storage & Security</h2>
+
+        <h3>iCloud Sync</h3>
+        <ul>
+            <li>Your entries are stored in your private iCloud account using Apple's CloudKit</li>
+            <li>Data is encrypted by Apple both in transit and at rest</li>
+            <li>Only you can access your entries across your Apple devices</li>
+            <li>We cannot access your iCloud data</li>
+        </ul>
+
+        <h3>Our Server Infrastructure</h3>
+        <ul>
+            <li><strong>CloudFlare Workers</strong> process AI requests (serverless, ephemeral)</li>
+            <li><strong>No persistent storage</strong> of your content on our servers</li>
+            <li><strong>HTTPS encryption</strong> for all API communication</li>
+            <li><strong>API keys secured</strong> as environment variables (never in app code)</li>
+        </ul>
+
+        <h3>Third-Party Services</h3>
+        <p><strong>OpenAI</strong> (AI Processing):</p>
+        <ul>
+            <li>Privacy Policy: <a href="https://openai.com/policies/privacy-policy" target="_blank">https://openai.com/policies/privacy-policy</a></li>
+            <li>Terms: <a href="https://openai.com/policies/terms-of-use" target="_blank">https://openai.com/policies/terms-of-use</a></li>
+            <li>Data retention: 30 days for API requests, then deleted</li>
+            <li>Not used for training AI models</li>
+        </ul>
+
+        <p><strong>Apple iCloud</strong> (Data Storage):</p>
+        <ul>
+            <li>Privacy Policy: <a href="https://www.apple.com/legal/privacy/" target="_blank">https://www.apple.com/legal/privacy/</a></li>
+            <li>Your iCloud data is subject to Apple's privacy terms</li>
+            <li>End-to-end encrypted (we cannot access it)</li>
+        </ul>
+
+        <h2>Your Privacy Rights</h2>
+
+        <h3>Access & Export</h3>
+        <ul>
+            <li>All your data is in your iCloud account</li>
+            <li>Export your entries as PDF, Markdown, or JSON from the Profile → Export screen</li>
+            <li>You own your data completely</li>
+        </ul>
+
+        <h3>Deletion</h3>
+        <ul>
+            <li><strong>Delete individual entries:</strong>
+                <ul>
+                    <li>Long-press (hold) any entry in History → Tap "Delete" in menu</li>
+                    <li>Or open entry detail → Tap menu (•••) → "Delete" → Confirm</li>
+                </ul>
+            </li>
+            <li><strong>Delete all entries:</strong> Profile → "Delete All Entries" (requires Face ID/Touch ID confirmation)</li>
+            <li>Deletion is permanent and removes data from iCloud immediately</li>
+        </ul>
+
+        <h3>Opt-Out of AI Processing</h3>
+        <ul>
+            <li>GratitudeLens requires AI processing to function</li>
+            <li>If you prefer not to use AI features, we recommend a non-AI journaling app</li>
+        </ul>
+
+        <h2>Children's Privacy (COPPA Compliance)</h2>
+        <ul>
+            <li>GratitudeLens is intended for users <strong>aged 13 and older</strong></li>
+            <li>We display an age gate on first launch requiring users to confirm they are 13+</li>
+            <li>We do NOT knowingly collect personal information from children under 13</li>
+            <li>If we learn that a user is under 13, we will delete their account</li>
+            <li><strong>For parents:</strong> If your child is using this app, please supervise their usage and review this Privacy Policy</li>
+        </ul>
+        <p><strong>COPPA Rights:</strong> If you believe your child under 13 has used this app, please contact us at <a href="mailto:support@gratitudelens.com">support@gratitudelens.com</a> to delete their data.</p>
+
+        <h2>Data Retention</h2>
+        <table>
+            <tr>
+                <th>Data Type</th>
+                <th>Retention Period</th>
+            </tr>
+            <tr>
+                <td>Gratitude entries (iCloud)</td>
+                <td>Until you delete them</td>
+            </tr>
+            <tr>
+                <td>AI reflections (iCloud)</td>
+                <td>Until you delete them</td>
+            </tr>
+            <tr>
+                <td>API requests (OpenAI)</td>
+                <td>30 days, then deleted by OpenAI</td>
+            </tr>
+            <tr>
+                <td>Moderation logs</td>
+                <td>30 days, then auto-deleted</td>
+            </tr>
+            <tr>
+                <td>Rate limit data</td>
+                <td>Resets every 60 seconds</td>
+            </tr>
+        </table>
+
+        <h2>International Users (GDPR/CCPA)</h2>
+
+        <h3>GDPR Rights (European Users)</h3>
+        <ul>
+            <li><strong>Right to access:</strong> Export your data via Profile → Export</li>
+            <li><strong>Right to erasure:</strong> Delete data via app settings</li>
+            <li><strong>Right to data portability:</strong> Export as JSON</li>
+            <li><strong>Right to restrict processing:</strong> Not applicable (processing is essential to service)</li>
+            <li><strong>Right to object:</strong> You may stop using the app and delete your data</li>
+        </ul>
+
+        <h3>CCPA Rights (California Users)</h3>
+        <ul>
+            <li><strong>Right to know:</strong> This Privacy Policy discloses what data we collect</li>
+            <li><strong>Right to delete:</strong> Delete data via app settings</li>
+            <li><strong>Right to opt-out of sale:</strong> We do NOT sell your personal information</li>
+            <li><strong>Right to non-discrimination:</strong> Exercising your rights won't affect your service</li>
+        </ul>
+
+        <p><strong>To exercise your rights:</strong> Email <a href="mailto:support@gratitudelens.com">support@gratitudelens.com</a> with your request.</p>
+
+        <h2>Content Safety & Reporting</h2>
+        <ul>
+            <li>We use OpenAI's Moderation API to screen content for safety</li>
+            <li>Harmful content (violence, self-harm, hate) is blocked with appropriate resources (988 Lifeline, Crisis Text Line)</li>
+            <li>Users can report inappropriate AI responses via the "Report" button on reflection cards</li>
+            <li>Reports are sent to <a href="mailto:support@gratitudelens.com">support@gratitudelens.com</a> and reviewed within 24 hours</li>
+        </ul>
+
+        <h2>Changes to This Privacy Policy</h2>
+        <ul>
+            <li>We may update this Privacy Policy from time to time</li>
+            <li>Changes will be posted in the app with an updated "Last Updated" date</li>
+            <li>Significant changes will be announced via in-app notification</li>
+            <li>Continued use after changes constitutes acceptance</li>
+        </ul>
+
+        <div class="contact-section">
+            <h2>Contact Us</h2>
+            <p>If you have questions about this Privacy Policy or your privacy rights:</p>
+            <p><strong>Email:</strong> <a href="mailto:support@gratitudelens.com">support@gratitudelens.com</a></p>
+        </div>
+
+        <h2>Legal Compliance</h2>
+        <p>This Privacy Policy complies with:</p>
+        <ul>
+            <li><strong>GDPR</strong> (General Data Protection Regulation - EU)</li>
+            <li><strong>CCPA</strong> (California Consumer Privacy Act - California, USA)</li>
+            <li><strong>COPPA</strong> (Children's Online Privacy Protection Act - USA)</li>
+            <li><strong>NIST AI RMF</strong> (AI Risk Management Framework)</li>
+            <li><strong>Apple App Store Guidelines</strong> (Section 1.2 - User Generated Content)</li>
+            <li><strong>OpenAI Usage Policies</strong></li>
+        </ul>
+
+        <div class="summary-box">
+            <h2>Summary</h2>
+            <p><strong>What we collect:</strong> Entry content (temporarily, for AI processing only), anonymized device ID (for rate limiting)</p>
+            <p><strong>What we DON'T collect:</strong> Name, email, location, analytics, ads</p>
+            <p><strong>Where your data is stored:</strong> Your iCloud account (private, encrypted)</p>
+            <p><strong>Who can access your data:</strong> Only you (we cannot access your iCloud data)</p>
+            <p><strong>How to delete your data:</strong> Delete entries in the app or "Delete All" in Profile settings</p>
+            <p><strong>Third parties:</strong> OpenAI (AI processing, 30-day retention), Apple (iCloud storage, end-to-end encrypted)</p>
+            <p><strong>Questions?</strong> <a href="mailto:support@gratitudelens.com">support@gratitudelens.com</a></p>
+        </div>
+
+        <p style="text-align: center; margin-top: 40px; padding-top: 20px; border-top: 2px solid #f0f0f0;">
+            <strong>By using GratitudeLens, you agree to this Privacy Policy.</strong>
+        </p>
+
+        <p style="text-align: center; color: #666; font-size: 0.9rem;">
+            Last Updated: November 23, 2025
+        </p>
+    </div>
+</body>
+</html>
